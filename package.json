@@ -1,0 +1,16 @@
+{
+  "name": "lolapi",
+  "version": "1.0.0",
+  "description": "aplikacja umozliwiajaca sprawdzanie np rangi w lidze wuh ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "kisotsu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
