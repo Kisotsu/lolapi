@@ -1,0 +1,43 @@
+    <nav class="nav-bar">
+      <div class="nav-bar-logo">
+        <img src="./img/logo.gif" alt="www" />
+      </div>
+      <div class="search-bar">
+        <input type="search" />
+      </div>
+      <div class="nav-bar-items">
+        <ul>
+          <li><a href="">konto</a></li>
+          <li><a href="">wwww</a></li>
+          <li><a href="">duh</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="panel">
+        <form action="/api" method="post" id="forma">
+          <h1>Sprawdź nygusa</h1>
+          <label for="user">Nazwa użytkownika</label>
+          <br />
+          <input type="text" name="user" />
+          <br />
+          <label for="tag">Tag użytkownika</label>
+          <br />
+          <input type="text" name="tag" />
+          <br />
+          <br>
+          <button onclick="www()">szukaj owo!</button>
+        </form>
+
+       <div class="konto">
+        <div class="container">
+            <img src={{ProfPic}} alt="">
+             <br>
+        </div>
+        <h2>Nazwa: {{Username}}#{{Tag}}</h2>
+        <h2>LVL: {{lvl}}</h2>
+        <h2>Ranga: {{ranktier}} {{rank}} (LP: {{LP}})</h2>
+       </div>
+      </div>
+    </div>
+   
